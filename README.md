@@ -1,30 +1,47 @@
-#  Data Cleaning Project
+# 🧼 Data Cleaning Project – Titanic Dataset
 
-This project demonstrates data cleaning and preprocessing techniques using the Titanic dataset.
+This project demonstrates essential data cleaning and preprocessing techniques using the Titanic dataset from Kaggle. It showcases how to handle missing data, engineer features, and prepare a dataset for further analysis or machine learning tasks.
 
-## 📂 Files Included
-`train.csv` – Original dataset (from Kaggle)
-`data_cleaned.csv` – Cleaned and ready-to-use dataset
-`data_cleaning.ipynb` – Jupyter Notebook with step-by-step cleaning
-`README.md` – Project overview
+---
 
-## 🔧 Tools Used
-Python
-Pandas
-NumPy
-Seaborn & Matplotlib
+## 📁 Files Included
 
-## 🔍 Key Steps
-Handled missing values (Age, Embarked)
-Dropped noisy column (Cabin)
-Encoded categorical variables (Sex, Embarked)
-Created new feature: `FamilySize`
-Visualized correlations
-Exported clean dataset for modeling
+- `train.csv` – Original dataset (downloaded from Kaggle)  
+- `data_cleaned.csv` – Cleaned and ready-to-use dataset  
+- `data_cleaning.ipynb` – Jupyter Notebook containing the full cleaning process  
+- `README.md` – This project overview and documentation  
 
-## 📎 Dataset Source
-[Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+---
 
+## 🛠 Tools Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Seaborn  
+- Matplotlib  
+
+---
+
+## 🔍 Key Steps Performed
+
+- ✅ Handled missing values in `Age` and `Embarked`  
+- ✅ Dropped highly incomplete column `Cabin`  
+- ✅ Encoded categorical variables like `Sex` and `Embarked`  
+- ✅ Engineered a new feature: `FamilySize`  
+- ✅ Visualized correlations using a heatmap  
+- ✅ Exported a clean, modeling-ready dataset  
+
+---
+
+## 📊 Dataset Source
+
+[Kaggle: Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data)
+
+---
 
 ## ✨ Outcome
-This project showcases essential data wrangling skills and prepares the dataset for machine learning or further analysis.
+
+This project highlights core data wrangling skills crucial for data science roles. The final cleaned dataset is ready for exploratory analysis, machine learning model training, or integration into dashboards and reporting tools.
+
+---
