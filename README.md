@@ -1,4 +1,4 @@
-# 🧼 Data Cleaning Project – Titanic Dataset
+# Data Cleaning Project 
 
 This project demonstrates essential data cleaning and preprocessing techniques using the Titanic dataset from Kaggle. It showcases how to handle missing data, engineer features, and prepare a dataset for further analysis or machine learning tasks.
 
